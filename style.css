@@ -29,7 +29,7 @@ h3{
     color: black;
 }
 
-p{
+p, ul{
     font-size: 0.8em;
     color: black;
 }
@@ -85,8 +85,8 @@ nav strong{
 
 .Notes{
     display: flex;
-    justify-content: right;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 #Bloc_Hebergements{
@@ -200,10 +200,6 @@ nav strong{
     margin: 2px 0px 2px 10px;
 }
 
-.Hebergement_Desc ul{
-    margin-left: -30px;
-}
-
 .Hebergement_Pop_Desc{
     position: absolute;
     right: 0;
@@ -216,10 +212,6 @@ nav strong{
 
 .Hebergement_Pop_Desc h3, .Hebergement_Pop_Desc p, .Hebergement_Pop_Desc ul{
     margin: 2px 0px 2px 10px;
-}
-
-.Hebergement_Pop_Desc ul{
-    margin-left: -30px; /* Pourquoi ça marche pas dans .Notes ?*/
 }
 
 /*-----------------------------------------------------*/
@@ -299,4 +291,37 @@ nav strong{
 
 .Activite_Titre h3{
     margin-left: 10px;
+}
+
+/*--------------------------------------------------*/
+/*----------------------FOOTER----------------------*/
+footer{
+    display: flex;
+    height: 200px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer li{
+    margin: 15px 0 15px 0;
+}
+
+#Div_A_Propos{
+    width: 33%;
+}
+
+#Div_Nos_Hebergements{
+    width: 33%;
+}
+
+#Div_Assistance{
+    width: 33%;
 }
