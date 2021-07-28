@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/*-----------------------------------------------------*/
+/*-----------------------GLOBAL------------------------*/
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+#Bloc_Page{
+    width: 1280px;
+    margin: auto;
+}
+
+h1{
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: black;
+}
+
+h2{
+    font-size: 1em;
+    font-weight: bolder;
+    color: black;
+}
+
+h3{
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: black;
+}
+
+p{
+    font-size: 0.8em;
+    color: black;
+}
+
+span{
+    font-size: 0.8em;
+    color: black;
+    font-weight: bolder;
+}
+
+/*-----------------------------------------------------*/
+/*-----------------------HEADER------------------------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    margin-left: 50px;;
+}
+
+nav a{
+    font-size: 0.8em;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+
+nav strong{
+    color: #0065FC;
+    font-weight:bold;
+}
