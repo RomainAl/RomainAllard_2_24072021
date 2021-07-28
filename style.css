@@ -74,3 +74,229 @@ nav strong{
     color: #0065FC;
     font-weight:bold;
 }
+
+/*-----------------------------------------------------*/
+/*--------------------HEBERGEMENTS---------------------*/
+.Icones{
+    color: #0065FC;
+    width: 15px;
+    height: 15px;
+}
+
+.Notes{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+#Bloc_Hebergements{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+#Section_Hebergements{
+    margin-right: 20px;
+    flex: 3;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Aside_Hebergements_Pop{
+    flex: 1.2;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#Hebergements{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Hebergement{
+    margin: 25px 25px 25px 25px;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    position: relative;
+    box-shadow: 0px 0px 25px -8px #000000;
+}
+
+.Hebergement_Pop{
+    margin: 25px 25px 25px 25px;
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    position: relative;
+    box-shadow: 0px 0px 25px -8px #000000;
+}
+
+#H1{
+    background: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#H2{
+    background: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#H3{
+    background: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#H4{
+    background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') no-repeat center;
+    background-size: cover; /* Pourquoi pas au dessus ??*/
+}
+
+#H5{
+    background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#H6{
+    background: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#HP1{
+    background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#HP2{
+    background: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#HP3{
+    background: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.Hebergement_Desc{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 33%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.Hebergement_Desc h3, .Hebergement_Desc p, .Hebergement_Desc ul{
+    margin: 2px 0px 2px 10px;
+}
+
+.Hebergement_Desc ul{
+    margin-left: -30px;
+}
+
+.Hebergement_Pop_Desc{
+    position: absolute;
+    right: 0;
+    border-radius: 0px 10px 10px 0px;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.Hebergement_Pop_Desc h3, .Hebergement_Pop_Desc p, .Hebergement_Pop_Desc ul{
+    margin: 2px 0px 2px 10px;
+}
+
+.Hebergement_Pop_Desc ul{
+    margin-left: -30px; /* Pourquoi ça marche pas dans .Notes ?*/
+}
+
+/*-----------------------------------------------------*/
+/*----------------------ACTIVITES----------------------*/
+.Section_Activites{
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.Activites{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 350px;
+}
+
+.Activite{
+    margin: 25px 25px 25px 25px;
+    width: 20%;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 0px 25px -8px #000000;
+}
+
+#A1{
+    background: url('images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    height: 250px;
+}
+
+#A2{
+    background: url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    height: 100px;
+}
+
+#A3{
+    background: url('images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    height: 100px;
+}
+
+#A4{
+    background: url('images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    height: 250px;
+}
+
+#A5{
+    background: url('images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    height: 100px;
+}
+
+#A6{
+    background: url('images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    height: 100px;
+}
+
+.Activite_Titre{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 33px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.Activite_Titre h3{
+    margin-left: 10px;
+}
