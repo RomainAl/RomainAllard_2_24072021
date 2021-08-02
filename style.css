@@ -22,21 +22,16 @@ h2{
     color: black;
 }
 
-h3{
-    font-size: 0.7em;
+.goto{
+    font-size: 0.9em;
     font-weight: bolder;
     color: black;
+    text-decoration: none;
 }
 
-p, ul{
-    font-size: 0.6em;
+ul{
+    font-size: 0.9em;
     color: black;
-}
-
-span{
-    font-size: 0.6em;
-    color: black;
-    font-weight: bolder;
 }
 
 /*-----------------------------------------------------*/
@@ -59,16 +54,9 @@ nav li{
 }
 
 nav a{
-    font-size: 1.2em;
     color: black;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 32px;
     text-decoration: none;
-}
-
-nav a:hover{
-    color: #0065FC;
-    border-top: 10px solid #0065FC;
 }
 
 nav strong{
@@ -76,122 +64,157 @@ nav strong{
     font-weight:bold;
 }
 
-/*-----------------------------------------------------*/
-/*--------------------HEBERGEMENTS---------------------*/
-.Icones{
+nav a:hover{
     color: #0065FC;
-    width: 15px;
-    height: 15px;
+    border-top: 10px solid #0065FC;
 }
 
-.Notes{
+
+/*-----------------------------------------------------*/
+/*--------------------HEBERGEMENTS---------------------*/
+#bloc_rents{
     display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 650px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+#section_rents{
+    width: 65%;
+    margin-right: 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#aside_rents_pop{
+    width: 22%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container_rents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    height: 80%;
+}
+
+#container_rents_pop{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.rent{
+    width: 30%;
+    height: 42%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    position: relative;
+    box-shadow: 0px 0px 25px -8px #000000;
+}
+
+.rent_pop{
+    width: 100%;
+    height: 27%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    position: relative;
+    box-shadow: 0px 0px 25px -8px #000000;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
     list-style-type: none;
     padding-left: 0px;
 }
 
-#Bloc_Hebergements{
-    display: flex;
-    justify-content: space-between;
-    height: 600px;
-    width: 90%;
+.rating span{
+    border-radius: 50%;
+    font-size: 13px;
 }
 
-#Section_Hebergements{
-    width: 70%;
-    margin-right: 10px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
+.blue-star {
+    color: #0065FC;
 }
 
-#Aside_Hebergements_Pop{
-    width: 30%;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+.empty-star {
+    color: #D2D2D2;
 }
 
-#Hebergements{
-    display: flex;
-    flex-wrap: wrap;
+#bloc_rents p{
+    font-size: 0.7em;
 }
 
-.Hebergement{
-    margin: 25px 25px 25px 25px;
-    width: 25%;
-    height: 150px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    position: relative;
-    box-shadow: 0px 0px 25px -8px #000000;
+#bloc_rents p span{
+    font-weight: bolder;
 }
 
-.Hebergement_Pop{
-    margin: 25px 25px 25px 25px;
-    width: 85%;
-    height: 120px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    position: relative;
-    box-shadow: 0px 0px 25px -8px #000000;
-}
-
-#H1{
+#r1{
     background: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') no-repeat center;
     background-size: cover; /* Pourquoi pas au dessus ??*/
 }
 
-#H2{
+#r2{
     background: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') no-repeat center;
     background-size: cover;
 }
 
-#H3{
+#r3{
     background: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') no-repeat center;
     background-size: cover;
 }
 
-#H4{
+#r4{
     background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') no-repeat center;
     background-size: cover; 
 }
 
-#H5{
+#r5{
     background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') no-repeat center;
     background-size: cover;
 }
 
-#H6{
+#r6{
     background: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') no-repeat center;
     background-size: cover;
 }
 
-#HP1{
+#rp1{
     background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') no-repeat center;
     background-size: cover;
 }
 
-#HP2{
+#rp2{
     background: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') no-repeat center;
     background-size: cover;
 }
 
-#HP3{
+#rp3{
     background: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') no-repeat center;
     background-size: cover;
 }
 
-.Hebergement_Desc{
+.rent_desc{
     position: absolute;
     bottom: 0;
     border-radius: 0px 0px 10px 10px;
@@ -201,11 +224,11 @@ nav strong{
     color: rgb(0, 0, 0);
 }
 
-.Hebergement_Desc h3, .Hebergement_Desc p, .Hebergement_Desc ul{
+.rent_desc h3, .rent_desc p, .rent_desc ul{
     margin: 2px 0px 2px 10px;
 }
 
-.Hebergement_Pop_Desc{
+.rent_pop_desc{
     position: absolute;
     right: 0;
     border-radius: 0px 10px 10px 0px;
@@ -213,33 +236,43 @@ nav strong{
     height: 100%;
     background-color: white;
     color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.Hebergement_Pop_Desc h3, .Hebergement_Pop_Desc p, .Hebergement_Pop_Desc ul{
+.rent_pop_desc h3, .rent_pop_desc p, .rent_pop_desc ul{
     margin: 2px 0px 2px 10px;
+}
+
+#section_rents p a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bolder;
 }
 
 /*-----------------------------------------------------*/
 /*----------------------ACTIVITES----------------------*/
-#Section_Activites{
+#section_activities{
     display: flex;
     flex-direction: column;
     align-content: center;
     height: 500px;
     width: 90%;
     margin-bottom: 20px;
-    background-color: black;
 }
 
-#Activites{
+#activities{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    align-content: space-between;
     height: 80%;
 }
 
-.Activite{
+.activity{
     width: 20%;
     border-radius: 20px;
     position: relative;
@@ -282,7 +315,7 @@ nav strong{
     height: 45%;
 }
 
-.Activite_Titre{
+.activity_title{
     position: absolute;
     display: flex;
     align-items: center;
@@ -294,18 +327,24 @@ nav strong{
     color: rgb(0, 0, 0);
 }
 
-.Activite_Titre h3{
+.activity_title h3{
     margin-left: 10px;
 }
 
 /*--------------------------------------------------*/
 /*----------------------FOOTER----------------------*/
 footer{
-    display: flex;
+    width: 100%;
     height: 200px;
     background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
 }
 
+#bloc_footer{
+    width: 90%;
+    display: flex;
+}
 footer ul{
     list-style-type: none;
     padding-left: 0px;
@@ -320,127 +359,145 @@ footer li{
     margin: 15px 0 15px 0;
 }
 
-#Div_A_Propos{
+#container_about{
     width: 33%;
 }
 
-#Div_Nos_Hebergements{
+#container_our_rents{
     width: 33%;
 }
 
-#Div_Assistance{
+#container_assistance{
     width: 33%;
 }
 
 /*--------------------------------------------------*/
-/*----------------------TROUVER---------------------*/
-#Section_Trouvez{
+/*---------------FIND-&-FILTERS-&-INFO--------------*/
+#section_find_and_filters{
     width: 90%;
+    display: flex;
+    flex-direction: column;
 }
-#Recherche{
+
+/*--------------------------------------------------*/
+/*----------------------FIND---------------------*/
+#container_find{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#container_find h1{
+    margin-bottom: -10px;
+}
+
+#container_find p{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+#form_research{
     background-color: #F2F2F2;
-    border-radius: 20px;
+    border-radius: 15px;
     border-style: solid;
     border-color: #F2F2F2;
     border-width: 1px;
-    width: 30%;
+    width: 350px;
     height: 40px;
     display: flex;
     align-items: center;
-    width: 90%;
 }
 
-#Recherche img{
-    width: 10%;
+#form_research span{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#Recherche_Location{
+
+#text_research{
     height: 95%;
-    width: 70%;
+    width: 55%;
     border-style: none;
+    padding: 0 15px 0 15px;
 }
 
-#Recherche_Bouton{
+#text_research::placeholder{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+#button_research{
+    width: 30%;
     height: 100%;
     background-color: #0065FC;
-    border-style: none;
-    border-radius: 0 20px 20px 0;
+    border-color:#0065FC;
+    border-radius: 0 15px 15px 0;
     color: white;
+    font-weight: bolder;
 }
 
 /*--------------------------------------------------*/
 /*----------------------FILTRES---------------------*/
-#Section_Filtres{
-    margin-top: 15px;
+#container_filters{
     display: flex;
-    width: 90%;
+    height: 100px;
     align-items: center;
 }
 
-.Filtre{
-    margin-left: 20px;
-    border-radius: 40px;
-    width: 150px;
-    height: 40px;
-    border-style: solid;
-    border-color: #F2F2F2;
-    border-width: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-decoration: none;
-    font-weight: bolder;
-    color: black;
-    font-size: 1.3em;
-}
-
-.Filtre:hover{
-    background-color: #DEEBFF;
-}
-
-#Div_Filtres{
-    font-weight: bold;
-    width: 90%;
-}
-
-#filtres{
-    margin-right: 5px;
-}
-
-#Criteres{
+#container_choices{
+    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-#Criteres span{
+#container_choices span{
     color: #0065FC;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     background-color: #DEEBFF;
 }
 
-#Criteres div{
+#container_choices li{
     border: 2px #F2F2F2 solid;
     border-radius: 30px / 30px;
     border-left: none;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-#Criteres div:hover{
-    background-color: #DEEBFF;
-}
-
-.Critere_items{
-    color: black;
+#container_choices a{
     text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 1em;
     padding: 15px 15px 15px 10px;
+}
+
+#container_choices li:hover{
+    background-color: #DEEBFF;
 }
 
 /*--------------------------------------------------*/
 /*------------------------INFO----------------------*/
-#Div_Info{
+#container_info{
+    display: flex;
+    align-items: center;
     margin-bottom: 15px;
-    width: 90%;
+}
+
+#container_info p{
+    margin-left: 15px;
+    font-size: 0.9em;
+}
+
+#container_info span{
+    color: #0065FC;
+    font-size: 12px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 50%;
+    padding: 3px 8px 3px 8px;
 }
