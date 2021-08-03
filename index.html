@@ -8,14 +8,22 @@
 </head>
 <body>
     <header>
-        <div id = "Logo">
-            <img src = "images/logo/Reservia.svg" alt = "Logo RESERVIA" >
-        </div>
-        <nav>
-            <ul>
+        <nav id="desktop_header">
+            <a href="#" id="button_logo"><img class="logo" src="images/logo/Reservia.svg" alt="logo reservia"></a>
+            <ul id="top_menu_desktop">
                 <li><a href = "#section_rents">Hébergements</a></li>
                 <li><a href = "#section_activities">Activités</a></li>
                 <li><a href = "#"><strong>S'inscrire</strong></a></li>
+            </ul>
+        </nav>
+        <nav id="mobil_header">
+            <ul id="top_menu_mobil">
+                <li><a href="#"><img class="logo" src="images/logo/Reservia.svg" alt="logo reservia"></a></li>
+                <li><a href = "#"><strong>S'inscrire</strong></a></li>
+            </ul>
+            <ul id="bottom_menu">
+                <li><a href = "#section_rents">Hébergements</a></li>
+                <li><a href = "#section_activities">Activités</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +36,8 @@
             <form method="Post" action="Traitement_Location.php" id = "form_research">
                 <span><i class="fas fa-map-marker-alt"></i></span>
                 <input type="text" name = "Recherche location" id = "text_research" placeholder="Marseille, France">
-                <input type="submit" value="Rechercher" id="button_research">
+                <button id="button_research">Rechercher</button>
+                <button id="button_research_mobil"><i class="fas fa-search"></i></button>
             </form>
         </div>
 
