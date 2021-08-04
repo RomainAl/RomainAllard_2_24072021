@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
     <title>RESERVIA</title>
+
+    <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve"/>
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://romainal.github.io/RomainAllard_2_24072021/">
+    <meta name="twitter:title" content="RESERVIA">
+    <meta name="twitter:description" content="Trouvez votre hébergement pour des vacances de rêve">
+    <meta name="twitter:creator" content="Romain AL">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="images/logo/Reservia@3x.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="RESERVIA" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://romainal.github.io/RomainAllard_2_24072021/" />
+    <meta property="og:image" content="images/logo/Reservia@3x.png" />
+    <meta property="og:description" content="Trouvez votre hébergement pour des vacances de rêve" /> 
+    <meta property="og:site_name" content="RESERVIA" />
+    <meta property="og:locale" content="fr_FR"/>
+
 </head>
+
 <body>
+
     <header>
+
         <nav id="desktop_header">
             <a href="#" id="button_logo"><img class="logo" src="images/logo/Reservia.svg" alt="logo reservia"></a>
             <ul id="top_menu_desktop">
@@ -16,6 +42,7 @@
                 <li><a href = "#"><strong>S'inscrire</strong></a></li>
             </ul>
         </nav>
+
         <nav id="mobile_header">
             <ul id="top_menu_mobile">
                 <li><a href="#"><img class="logo" src="images/logo/Reservia.svg" alt="logo reservia"></a></li>
@@ -26,6 +53,7 @@
                 <li><a href = "#section_activities">Activités</a></li>
             </ul>
         </nav>
+
     </header>
     
     <section id = "section_find_and_filters">
@@ -194,10 +222,16 @@
             </section>
 
             <h3><a href="#">Afficher plus</a></h3>
+
         </section>
 
         <aside id = "aside_rents_pop">
-            <h2>Les plus populaires</h2>
+
+            <div id="rents_pop_title">
+                <h2>Les plus populaires</h2>
+                <span><i class="fas fa-chart-line icon-popular"></i></span>
+            </div>
+
             <div id="container_rents_pop">
 
                 <article class="rent_pop">
@@ -264,12 +298,17 @@
                 </article>
 
             </div>
+
         </aside>
+
     </div>
     
     <section id="section_activities">
+
         <h2>Activités à Marseille</h2>
+
         <div id="activities">
+
             <div class="activity">
                 <a class="activity_link" href="#">
                     <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port">
@@ -278,6 +317,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="activity">
                 <a class="activity_link" href="#">
                     <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomegues">
@@ -286,6 +326,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="activity">
                 <a class="activity_link" href="#">
                     <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du frioul">
@@ -294,6 +335,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="activity">
                 <a class="activity_link" href="#">
                     <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques">
@@ -302,6 +344,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="activity">
                 <a class="activity_link" href="#">
                     <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre-dame-de-la-garde">
@@ -310,6 +353,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="activity">
                 <a class="activity_link" href="#">
                     <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc longchamp">
@@ -318,11 +362,15 @@
                     </div>
                 </a>
             </div>
+
         </div>
+
     </section>
 
     <footer>
-            <div id="bloc_footer">
+
+        <div id="bloc_footer">
+                
             <div id="container_about">
                 <h3>A propos</h3>
                 <div id="list_about">
@@ -333,6 +381,7 @@
                     </ul>
                 </div>
             </div>
+
             <div id="container_our_rents">
                 <h3>Nos hébergements</h3>
                 <div id="list_our_rents">
@@ -342,6 +391,7 @@
                     </ul>
                 </div>
             </div>
+
             <div id="container_assistance">
                 <h3>Assistance</h3>
                 <div id="list_assistance">
@@ -351,7 +401,10 @@
                     </ul>
                 </div>
             </div>
+
         </div>
+
     </footer>
+
 </body>
 </html>
