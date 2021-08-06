@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&amp;display=swap');
 
 /*-----------------------------------------------------*/
-/*-----------------------GLOBAL------------------------*/
+/*------------------------GLOBAL-----------------------*/
 body{
     font-family: 'Raleway', sans-serif;
     display: flex;
@@ -395,7 +395,7 @@ footer li{
     height: 150px;
 }
 #container_find h1{
-    margin-bottom: -5px;
+       margin-bottom: -5px;
 }
 
 #form_research{
