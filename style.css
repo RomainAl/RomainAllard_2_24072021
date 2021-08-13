@@ -398,7 +398,7 @@ footer li{
 }
 
 #form_research{
-    background-color: #F2F2F2;
+    background-color: #F2F2F1;
     border-radius: 15px;
     border: 1px solid #F2F2F2;
     width: 350px;
@@ -568,11 +568,11 @@ footer li{
     }
 
     ul{
-        font-size: 1.em;
+        font-size: 1.0em;
     }
     
     p{
-        font-size: 1.em;
+        font-size: 1.0em;
     }
 }
 
@@ -1015,7 +1015,8 @@ footer li{
 
 }
 
-@media (min-width:2500px){
+@media (min-width:2500px)
+{
     header, #bloc_rents, footer, #section_activities, #section_find_and_filters{
         width: 2000px;
     }
