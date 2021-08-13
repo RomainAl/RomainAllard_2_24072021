@@ -1,4 +1,3 @@
-/*@import url(https://fonts.googleapis.com/css?family=Raleway);*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&amp;display=swap');
 
 /*-----------------------------------------------------*/
@@ -481,7 +480,7 @@ footer li{
     border-left: none;
     margin-right: 30px;
     padding-top: 7px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 #container_choices a{
