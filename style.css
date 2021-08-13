@@ -516,39 +516,39 @@ footer li{
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------RESPONSIVE------------------------------------------------------------------------------------------------*/
-@media all and (max-device-width: 480px)
+@media (max-width: 425px)
 {
     /*-----------------------------------------------------*/
     /*-----------------------GLOBAL------------------------*/
     h1{
-        font-size: 4em;
+        font-size: 1.6em;
     }
     
     h2{
-        font-size: 3.5em;
+        font-size: 1.6em;
     }
     
     h3{
-        font-size: 2.8em;
+        font-size: 1.5em;
     }
 
     h4{
-        font-size: 2.6em;
+        font-size: 1.2em;
     }
 
     ul{
-        font-size: 2.5em;
+        font-size: 1.1em;
     }
     
     p{
-        font-size: 2.5em;
+        font-size: 1.1em;
     }
 
     /*-----------------------------------------------------*/
     /*-----------------------HEADER------------------------*/
     header{
         width: 100%;
-        height: 250px;
+        height: 170px;
     }
 
     #desktop_header{
@@ -566,7 +566,7 @@ footer li{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0px 30px 0px 30px;
+        padding: 0px 10px 0px 10px;
     }
 
     #top_menu_mobile li{
@@ -574,7 +574,7 @@ footer li{
     }
 
     #mobile_header img{
-        width: 200px;
+        width: 130px;
     }
 
     #bottom_menu{
@@ -597,14 +597,14 @@ footer li{
     }
 
     #bottom_menu a{
-        padding-bottom: 30px;
-        border-bottom: 5px solid #F2F2F2;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #F2F2F2;
     }
 
     #bottom_menu a:hover{
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         color: #0065FC;
-        border-bottom: 5px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
     }
 
     nav strong{
@@ -615,11 +615,13 @@ footer li{
     /*--------------------------------------------------*/
     /*---------------FIND-&-FILTERS-&-INFO--------------*/
     #section_find_and_filters{
-        height: 1300px;
+        width: 95%;
+        height: 630px;
+        justify-content: space-between;
     }
 
     #container_find{
-        height: 550px;
+        height: 230px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -630,21 +632,21 @@ footer li{
     }
     
     #form_research{
-        border-radius: 30px;
-        width: 90%;
-        height: 120px;
-        margin-bottom: 50px;
+        border-radius: 20px;
+        width: 100%;
+        height: 60px;
+        margin-bottom: 10px;
     }
     
     #form_research span{
-        font-size: 40px;
+        font-size: 20px;
     }
     
     #text_research{
         height: 95%;
-        font-size: 2.2em;
-        width: 62%;
-        padding: 0 15px 0 40px;
+        font-size: 1.1em;
+        width: 65%;
+        padding: 0 5px 0 10px;
     }
     
     #button_research{
@@ -657,50 +659,55 @@ footer li{
         align-items: center;
         width: 16%;
         height: 100%;
-        font-size: 40px;
+        font-size: 20px;
         background-color: #0065FC;
-        border-color:#0065FC;
-        border-radius: 30px;
+        border: none;
+        border-radius: 20px;
         color: white;
     }
 
     #container_filters{
         flex-direction: column;
         align-items: flex-start;
-        height: auto;
+        justify-content: space-between;
+        height: 250px;
     }
 
     #container_choices span{
         color: #0065FC;
         border-radius: 50%;
-        padding: 30px;
-        font-size: 40px;
+        padding: 12px;
+        font-size: 20px;
         background-color: #DEEBFF;
     }
     
     #container_choices li{
-        border: 5px #F2F2F2 solid;
-        border-radius: 60px / 60px;
+        border: 3px #F2F2F2 solid;
+        border-radius: 30px / 30px;
         border-left: none;
-        margin-right: 25px;
-        margin-bottom: 25px;
-        padding-top: 25px;
-        padding-bottom: 27px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     
     #container_choices a{
-        padding: 30px 40px 30px 20px;
+        padding: 10px 20px 10px 5px;
     }
     
     #container_info span{
-        font-size: 30px;
-        border: 5px #F2F2F2 solid;
+        font-size: 10px;
+        border: 2px #F2F2F2 solid;
         border-radius: 50%;
-        padding: 10px 20px 10px 20px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    #container_info p{
+        padding-top: 20px;
     }
 
     #container_info{
-        margin-bottom: 50px;
+        margin: -30px 0 30px 0;
     }
 
     /*-----------------------------------------------------*/
@@ -708,34 +715,34 @@ footer li{
     #bloc_rents{
         flex-direction: column-reverse;
         align-items: center;
-        height: 6000px;
+        height: 2300px;
         width: 95%;
         margin-bottom: 50px;
     }
 
     #bloc_rents h2, #bloc_rents h3{
-        margin-left: 30px;
-        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-bottom: 30px;
     }
 
     #aside_rents_pop{
         width: 100%;
-        height: 25%;
+        height: 30%;
         border-radius: 0;
         margin-bottom: 50px;
     }
 
     .rent_pop{
-        width: 90%;
+        width: 95%;
         height: 27%;
-        border-radius: 60px;
-        border-width: 15px;
+        border-radius: 20px;
+        border-width: 5px;
         position: relative;
         box-shadow: 0px 0px 25px -8px #000000;
     }
     
     .rent_pop_img {
-        border-radius: 40px 0px 0px 40px;
+        border-radius: 15px 0px 0px 15px;
     }
 
     .rating{
@@ -747,29 +754,25 @@ footer li{
     
     .rating span{
         border-radius: 50%;
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .rent_pop_desc{
-        border-radius: 0px 40px 40px 0px;
+        border-radius: 0px 15px 15px 0px;
         height: 100%;
     }
     
     .rent_pop_desc h4, .rent_pop_desc p, .rent_pop_desc ul{
-        margin: 30px 0px 30px 30px;
-    }
-    
-    .rent_pop_desc h4{
-        margin-bottom: -20px;
+        margin: 10px 0px 10px 10px;
     }
 
     #bloc_rents p{
-        font-size: 2.2em;
+        font-size: 1.1em;
     }
 
     #section_rents{
         width: 100%;
-        height: 75%;
+        height: 70%;
         margin-right: 0;
         background-color:white;
         padding: 0px;
@@ -783,28 +786,28 @@ footer li{
     .rent{
         width: 90%;
         height: 15%;
-        border-radius: 50px;
-        border-width: 10px;
+        border-radius: 20px;
+        border-width: 3px;
     }
 
     .rent_img {
-        height: 500px;
-        border-radius: 40px 40px 0px 0px;
+        height: 200px;
+        border-radius: 20px 20px 0px 0px;
     }
 
     .rent_desc h4, .rent_desc p, .rent_desc ul{
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 20px;
     }
 
     #rents_pop_title span{
-        font-size: 40px;
-        margin-right: 30px;
+        font-size: 25px;
+        margin: 0 10px 10px 0;
     }
 
     /*-----------------------------------------------------*/
     /*----------------------ACTIVITES----------------------*/
     #section_activities{
-        height: 3500px;
+        height: 1500px;
         width: 100%;
         margin-bottom: 50px;
     }
@@ -819,7 +822,7 @@ footer li{
     
     .activity{
         width: 90%;
-        border-radius: 40px;
+        border-radius: 20px;
     }
 
     .activity:nth-child(1){
@@ -847,27 +850,27 @@ footer li{
     }
     
     .activity img{
-        border-radius: 40px;
+        border-radius: 15px;
     }
     
     .activity div{
-        border-radius: 0px 0px 40px 40px;
-        height: 150px;
+        border-radius: 0px 0px 15px 15px;
+        height: 60px;
     }
     
     .activity div h4{
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     #section_activities h2{
         margin-left: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     /*--------------------------------------------------*/
     /*----------------------FOOTER----------------------*/
     footer{
         width: 100%;
-        height: 1200px;
+        height: 530px;
         align-items: center;
     }
 
@@ -889,10 +892,11 @@ footer li{
     }
 
     footer li{
-        margin: 25px 0 25px 0;
+        margin: 10px 0 10px 0;
     }
 
     #container_about, #container_our_rents,  #container_assistance{
-        width: 100%;
+        width: 95%;
     }
+    /*--------------------------------------------------*/
 }
